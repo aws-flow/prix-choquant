@@ -1,0 +1,22 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="shock" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  
+  <!-- White circle -->
+  <circle cx="256" cy="256" r="160" fill="#FFFFFF" opacity="0.95"/>
+  
+  <!-- Shock bolt (lightning) -->
+  <path d="M280 100 L200 270 L260 270 L210 420 L330 230 L265 230 L320 100 Z" fill="url(#shock)"/>
+
+</svg>
